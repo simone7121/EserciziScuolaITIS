@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 2.25.1 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1925" height="5225">
+	<rect x="0" y="0" width="1925" height="5225" fill="#000055"/>
+	<g>
+		<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="950,200 950,575"/>
+		<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="950,4950 950,5011"/>
+		<polygon fill="#AAAAAA" stroke="none" points="950,5025 963,5000 936,5000"/>
+		<g>
+			<path fill="#FF55FF" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 850,100 A 50,50 0 0,0 850,200 L 1050,200 A 50,50 0 0,0 1050,100 Z"/>
+			<text x="950" y="115" fill="#000055" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="950" dy="50" unicode-bidi="embed">Inizio</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#FF55FF" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 850,5025 A 50,50 0 0,0 850,5125 L 1050,5125 A 50,50 0 0,0 1050,5025 Z"/>
+			<text x="950" y="5040" fill="#000055" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="950" dy="50" unicode-bidi="embed">Fine</tspan>
+			</text>
+		</g>
+		<g>
+			<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="950,575 950,936"/>
+			<polygon fill="#AAAAAA" stroke="none" points="950,950 963,925 936,925"/>
+			<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="950,1125 950,1186"/>
+			<polygon fill="#AAAAAA" stroke="none" points="950,1200 963,1175 936,1175"/>
+			<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="950,1325 950,1386"/>
+			<polygon fill="#AAAAAA" stroke="none" points="950,1400 963,1375 936,1375"/>
+			<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="950,1675 950,1736"/>
+			<polygon fill="#AAAAAA" stroke="none" points="950,1750 963,1725 936,1725"/>
+			<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="950,1850 950,1911"/>
+			<polygon fill="#AAAAAA" stroke="none" points="950,1925 963,1900 936,1900"/>
+			<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="950,2025 950,2086"/>
+			<polygon fill="#AAAAAA" stroke="none" points="950,2100 963,2075 936,2075"/>
+			<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="950,2200 950,2261"/>
+			<polygon fill="#AAAAAA" stroke="none" points="950,2275 963,2250 936,2250"/>
+			<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="950,2475 950,2536"/>
+			<polygon fill="#AAAAAA" stroke="none" points="950,2550 963,2525 936,2525"/>
+			<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="950,2650 950,2711"/>
+			<polygon fill="#AAAAAA" stroke="none" points="950,2725 963,2700 936,2700"/>
+			<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="950,2925 950,2986"/>
+			<polygon fill="#AAAAAA" stroke="none" points="950,3000 963,2975 936,2975"/>
+			<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="950,3100 950,3161"/>
+			<polygon fill="#AAAAAA" stroke="none" points="950,3175 963,3150 936,3150"/>
+			<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="950,3325 950,3386"/>
+			<polygon fill="#AAAAAA" stroke="none" points="950,3400 963,3375 936,3375"/>
+			<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="950,3550 950,3611"/>
+			<polygon fill="#AAAAAA" stroke="none" points="950,3625 963,3600 936,3600"/>
+			<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="950,3875 950,3936"/>
+			<polygon fill="#AAAAAA" stroke="none" points="950,3950 963,3925 936,3925"/>
+			<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="950,4150 950,4211"/>
+			<polygon fill="#AAAAAA" stroke="none" points="950,4225 963,4200 936,4200"/>
+			<g>
+				<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="6,12" points="950,575 1075,575"/>
+				<g>
+					<path fill="#000055" stroke="#AAAAAA" stroke-width="3" stroke-dasharray="6,6" d="M 1075,275 L 1075,875 L 1825,875 L 1825,275 Z"/>
+					<text x="1450" y="290" fill="#AAAAAA" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="1450" dy="50" unicode-bidi="embed">Algoritmo: Ricevuto in input il</tspan>
+						<tspan x="1450" dy="50" unicode-bidi="embed"> quantitativo di foto, calcolare le due</tspan>
+						<tspan x="1450" dy="50" unicode-bidi="embed"> tariffe proposte dal negozio, e</tspan>
+						<tspan x="1450" dy="50" unicode-bidi="embed"> proporre quella piu' conveniente al</tspan>
+						<tspan x="1450" dy="50" unicode-bidi="embed"> compratore.</tspan>
+						<tspan x="1450" dy="50" unicode-bidi="embed"> &#13;</tspan>
+						<tspan x="1450" dy="50" unicode-bidi="embed"></tspan>
+						<tspan x="1450" dy="50" unicode-bidi="embed">&#13;</tspan>
+						<tspan x="1450" dy="50" unicode-bidi="embed">Programmatore: Simone</tspan>
+						<tspan x="1450" dy="50" unicode-bidi="embed"> D'Anna&#13;</tspan>
+						<tspan x="1450" dy="50" unicode-bidi="embed">Data 11/11/2020</tspan>
+					</text>
+				</g>
+			</g>
+			<g>
+				<path fill="#FFFF55" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 700,950 L 700,1125 L 1200,1125 L 1200,950 Z"/>
+				<polyline fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="none" points="700,975 1200,975"/>
+				<polyline fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="none" points="725,950 725,1125"/>
+				<text x="962" y="990" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="962" dy="50" unicode-bidi="embed">Dichiara</tspan>
+					<tspan x="962" dy="50" unicode-bidi="embed"> NomeCliente: Stringa</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFF55" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 650,1200 L 650,1325 L 1250,1325 L 1250,1200 Z"/>
+				<polyline fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="none" points="650,1225 1250,1225"/>
+				<polyline fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="none" points="675,1200 675,1325"/>
+				<text x="962" y="1240" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="962" dy="50" unicode-bidi="embed">Dichiara TotaleFoto: Intero</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFF55" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 675,1400 L 675,1675 L 1225,1675 L 1225,1400 Z"/>
+				<polyline fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="none" points="675,1425 1225,1425"/>
+				<polyline fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="none" points="700,1400 700,1675"/>
+				<text x="962" y="1440" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="962" dy="50" unicode-bidi="embed">Dichiara Prezzo1,</tspan>
+					<tspan x="962" dy="50" unicode-bidi="embed"> Quotafissa1, Prezzo2,</tspan>
+					<tspan x="962" dy="50" unicode-bidi="embed"> TotalePrezzo1,</tspan>
+					<tspan x="962" dy="50" unicode-bidi="embed"> TotalePrezzo2: Reale</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFF55" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 775,1750 L 775,1850 L 1125,1850 L 1125,1750 Z"/>
+				<text x="950" y="1765" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="950" dy="50" unicode-bidi="embed">Prezzo1 = 0.10</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFF55" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 725,1925 L 725,2025 L 1175,2025 L 1175,1925 Z"/>
+				<text x="950" y="1940" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="950" dy="50" unicode-bidi="embed">Quotafissa1 = 7.50</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFF55" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 775,2100 L 775,2200 L 1125,2200 L 1125,2100 Z"/>
+				<text x="950" y="2115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="950" dy="50" unicode-bidi="embed">Prezzo2 = 0.20</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#55FF55" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 650,2275 L 550,2475 L 1250,2475 L 1350,2275 Z"/>
+				<text x="950" y="2290" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="950" dy="50" unicode-bidi="embed">Scrivi &quot;Calcolo Prezzo foto</tspan>
+					<tspan x="950" dy="50" unicode-bidi="embed"> Digistamp2000.&#13;</tspan>
+					<tspan x="950" dy="50" unicode-bidi="embed">Inserire il vostro nome&quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#55AAFF" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 725,2550 L 675,2650 L 1175,2650 L 1225,2550 Z"/>
+				<text x="950" y="2565" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="950" dy="50" unicode-bidi="embed">Leggi NomeCliente</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#55FF55" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 700,2725 L 600,2925 L 1200,2925 L 1300,2725 Z"/>
+				<text x="950" y="2740" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="950" dy="50" unicode-bidi="embed">Scrivi &quot;Inserire il</tspan>
+					<tspan x="950" dy="50" unicode-bidi="embed"> quantitativo di foto da</tspan>
+					<tspan x="950" dy="50" unicode-bidi="embed"> stampare&quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#55AAFF" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 750,3000 L 700,3100 L 1150,3100 L 1200,3000 Z"/>
+				<text x="950" y="3015" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="950" dy="50" unicode-bidi="embed">Leggi TotaleFoto</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFF55" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 650,3175 L 650,3325 L 1250,3325 L 1250,3175 Z"/>
+				<text x="950" y="3190" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="950" dy="50" unicode-bidi="embed">TotalePrezzo1 = (TotaleFoto</tspan>
+					<tspan x="950" dy="50" unicode-bidi="embed">*Prezzo1)+QuotaFissa1</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFF55" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 650,3400 L 650,3550 L 1250,3550 L 1250,3400 Z"/>
+				<text x="950" y="3415" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="950" dy="50" unicode-bidi="embed">TotalePrezzo2 = TotaleFoto*</tspan>
+					<tspan x="950" dy="50" unicode-bidi="embed">Prezzo2</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#55FF55" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 700,3625 L 575,3875 L 1200,3875 L 1325,3625 Z"/>
+				<text x="950" y="3640" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="950" dy="50" unicode-bidi="embed">Scrivi &quot;Gentile Cliente,</tspan>
+					<tspan x="950" dy="50" unicode-bidi="embed"> L'offerta numero 1^ da</tspan>
+					<tspan x="950" dy="50" unicode-bidi="embed"> come risultato &quot; &amp;</tspan>
+					<tspan x="950" dy="50" unicode-bidi="embed">TotalePrezzo1 &amp;&quot; &#8364;&quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#55FF55" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 650,3950 L 550,4150 L 1250,4150 L 1350,3950 Z"/>
+				<text x="950" y="3965" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="950" dy="50" unicode-bidi="embed">Scrivi &quot;E l'offerta numero 2^</tspan>
+					<tspan x="950" dy="50" unicode-bidi="embed"> da come risultato &quot; &amp;</tspan>
+					<tspan x="950" dy="50" unicode-bidi="embed">TotalePrezzo2 &amp;&quot; &#8364;&quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="1200,4375 1400,4375 1400,4561"/>
+				<polygon fill="#AAAAAA" stroke="none" points="1400,4575 1413,4550 1386,4550"/>
+				<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="1400,4825 1400,4925 988,4925"/>
+				<polygon fill="#AAAAAA" stroke="none" points="975,4925 999,4938 999,4911"/>
+				<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="700,4375 500,4375 500,4561"/>
+				<polygon fill="#AAAAAA" stroke="none" points="500,4575 513,4550 486,4550"/>
+				<polyline fill="none" stroke="#AAAAAA" stroke-width="6" stroke-dasharray="none" points="500,4825 500,4925 911,4925"/>
+				<polygon fill="#AAAAAA" stroke="none" points="925,4925 900,4911 900,4938"/>
+				<g>
+					<path fill="#FFAAAA" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 950,4225 L 675,4375 L 950,4525 L 1225,4375 Z"/>
+					<text x="950" y="4315" fill="#000055" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="950" dy="50" unicode-bidi="embed">TotalePrezzo1&gt;</tspan>
+						<tspan x="950" dy="50" unicode-bidi="embed">TotalePrezzo2</tspan>
+					</text>
+				</g>
+				<g>
+					<path fill="#55FF55" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 1125,4575 L 1000,4825 L 1675,4825 L 1800,4575 Z"/>
+					<text x="1400" y="4590" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="1400" dy="50" unicode-bidi="embed">Scrivi &quot;Le consigliamo di</tspan>
+						<tspan x="1400" dy="50" unicode-bidi="embed"> scegliere la 2^ offerta,</tspan>
+						<tspan x="1400" dy="50" unicode-bidi="embed"> poiche' risulta la piu</tspan>
+						<tspan x="1400" dy="50" unicode-bidi="embed"> conveniente.&quot;</tspan>
+					</text>
+				</g>
+				<g>
+					<path fill="#55FF55" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 225,4575 L 100,4825 L 775,4825 L 900,4575 Z"/>
+					<text x="500" y="4590" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="500" dy="50" unicode-bidi="embed">Scrivi &quot;Le consigliamo di</tspan>
+						<tspan x="500" dy="50" unicode-bidi="embed"> scegliere la 1^ offerta,</tspan>
+						<tspan x="500" dy="50" unicode-bidi="embed"> poiche' risulta la piu</tspan>
+						<tspan x="500" dy="50" unicode-bidi="embed"> conveniente.&quot;</tspan>
+					</text>
+				</g>
+				<ellipse cx="950" cy="4925" rx="25" ry="25" fill="#FFAAAA" stroke="#000000" stroke-width="3"/>
+				<text x="1300" y="4290" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="1300" dy="50" unicode-bidi="embed">Vero</tspan>
+				</text>
+				<text x="587" y="4290" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="587" dy="50" unicode-bidi="embed">Falso</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

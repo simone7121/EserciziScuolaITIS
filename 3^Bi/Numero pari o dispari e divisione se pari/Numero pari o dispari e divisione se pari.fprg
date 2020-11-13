@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-10 10:23:09 "/>
+        <attribute name="created" value="c2ltb247REVTS1RPUC00NVJSR0VVOzIwMjAtMTEtMDc7IjA5OjU3OjUxICI7MjgyMg=="/>
+        <attribute name="edited" value="c2ltb247REVTS1RPUC00NVJSR0VVOzIwMjAtMTEtMTA7IjEwOjIzOjA5ICI7NjsyOTE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Algoritmo: Ricevuto in input un numero,Dire se esso &#232; pari o dispari, e se &#232; pari scrivi in output ache l;a divisione per 2 di esso. &#13;&#10;&#13;&#10;Programmatore: Simone D'Anna&#13;&#10;Data 10/11/2020"/>
+            <declare name="Numero1, Risultato" type="Integer" array="False" size=""/>
+            <output expression="&quot;Numero pari o Dispari ?&#13;&#10;Inserire il numero: &quot;" newline="True"/>
+            <input variable="Numero1"/>
+            <if expression="Numero1%2=0">
+                <then>
+                    <assign variable="Risultato" expression="Numero1/2"/>
+                    <output expression="&quot;Il numero e Pari&quot;" newline="True"/>
+                    <output expression="&quot;La divisione per 2 da come risultato &quot; &amp;Risultato" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Il numero e Dispari&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

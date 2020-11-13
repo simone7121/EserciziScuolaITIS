@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-08 08:57:44 "/>
+        <attribute name="created" value="c2ltb247REVTS1RPUC00NVJSR0VVOzIwMjAtMTEtMDc7IjA5OjU3OjUxICI7MjgyMg=="/>
+        <attribute name="edited" value="c2ltb247REVTS1RPUC00NVJSR0VVOzIwMjAtMTEtMDg7IjA4OjU3OjQ0ICI7MzsyOTM0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Algoritmo: Ricevuto in input un set di numeri, ordinarli in ordine crescente.&#13;&#10;&#13;&#10;Programmatore: Simone D'Anna&#13;&#10;Data 8/11/2020"/>
+            <declare name="Numero1, Numero2, Maggiore, Minore" type="Real" array="False" size=""/>
+            <output expression="&quot;Ordine crescente&#13;&#10;Inserire il 1 numero: &quot;" newline="True"/>
+            <input variable="Numero1"/>
+            <output expression="&quot;Inserire il 2 numero&quot;" newline="True"/>
+            <input variable="Numero2"/>
+            <if expression="Numero1&lt;Numero2">
+                <then>
+                    <assign variable="Minore" expression="Numero1"/>
+                    <assign variable="Maggiore" expression="Numero2"/>
+                </then>
+                <else>
+                    <assign variable="Minore" expression="Numero2"/>
+                    <assign variable="Maggiore" expression="Numero1"/>
+                </else>
+            </if>
+            <output expression="&quot;I numeri in ordine sono: &quot; &amp;Minore &amp;Maggiore" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

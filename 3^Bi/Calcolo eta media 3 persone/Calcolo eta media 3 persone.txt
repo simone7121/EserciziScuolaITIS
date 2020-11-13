@@ -1,0 +1,32 @@
+/*
+
+Algoritmo: Ricevuto in input un setidi eta differenti
+esprimere la media dei 3 valori.
+
+Programmatore: Simone D'Anna
+Data 16/10/2020
+
+*/
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int eta_1,eta_2,eta_3,eta_media;
+
+    cout << "Calcolatore eta media'" << endl << endl << "Inserire la prima eta': ";
+    cin >> eta_1;
+
+    cout << "Inserire la seconda eta': ";
+    cin >> eta_2;
+
+    cout << "Inserire la terza eta': ";
+    cin >> eta_3;
+
+    eta_media=(eta_1+eta_2+eta_3)/3;
+
+    cout << endl << "Il calcolo dell'eta' media da come risultato: " << eta_media << " Anni" << endl;
+
+    return 0;
+}

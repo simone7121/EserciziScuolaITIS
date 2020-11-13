@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-08 08:39:35 "/>
+        <attribute name="created" value="c2ltb247REVTS1RPUC00NVJSR0VVOzIwMjAtMTEtMDc7IjA5OjU3OjUxICI7MjgyMg=="/>
+        <attribute name="edited" value="c2ltb247REVTS1RPUC00NVJSR0VVOzIwMjAtMTEtMDg7IjA4OjM5OjM1ICI7MjsyOTMz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Algoritmo: Ricevuto in input un numero, dire se &#232; negativo o positivo.&#13;&#10;&#13;&#10;Programmatore: Simone D'Anna&#13;&#10;Data 8/11/2020"/>
+            <declare name="Numero1" type="Real" array="False" size=""/>
+            <output expression="&quot;Numero negativo o positivo ?&#13;&#10;Inserire il numero: &quot;" newline="True"/>
+            <input variable="Numero1"/>
+            <if expression="Numero1&gt;=0">
+                <then>
+                    <output expression="&quot;Il primo numero e' positivo.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Il primo numero e' negativo.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

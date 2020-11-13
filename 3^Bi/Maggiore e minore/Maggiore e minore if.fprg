@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-07 10:21:24 "/>
+        <attribute name="created" value="c2ltb247REVTS1RPUC00NVJSR0VVOzIwMjAtMTEtMDc7IjA5OjU3OjUxICI7MjgyMg=="/>
+        <attribute name="edited" value="c2ltb247REVTS1RPUC00NVJSR0VVOzIwMjAtMTEtMDc7IjEwOjIxOjI0ICI7MTsyOTEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Algoritmo: Ricevuto in input un set di 2 numeri, calcolare&#13;&#10;il massimo ed il minimo con l'if.&#13;&#10;&#13;&#10;Programmatore: Simone D'Anna&#13;&#10;Data 7/11/2020"/>
+            <declare name="Numero1, Numero2" type="Real" array="False" size=""/>
+            <output expression="&quot;Calcolatore Massimo e minimo numero&#13;&#10;Inserire il primo numero: &quot;" newline="True"/>
+            <input variable="Numero1"/>
+            <output expression="&quot;Inserire il secondo numero: &quot;" newline="True"/>
+            <input variable="Numero2"/>
+            <if expression="Numero1==Numero2">
+                <then>
+                    <output expression="&quot;il primo numero e uguale al secondo numero&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="Numero1&gt;numero2">
+                        <then>
+                            <output expression="&quot;il primo numero e maggiore, il secondo e minore&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;il secondo numero e maggiore, il primo e minore&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-11 01:21:06 "/>
+        <attribute name="created" value="c2ltb247REVTS1RPUC00NVJSR0VVOzIwMjAtMTEtMTE7IjEyOjE2OjE3ICI7MjgwOA=="/>
+        <attribute name="edited" value="c2ltb247REVTS1RPUC00NVJSR0VVOzIwMjAtMTEtMTE7IjAxOjIxOjA2ICI7MTsyOTA4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Algoritmo: Ricevuto in input il quantitativo di foto, calcolare le due tariffe proposte dal negozio, e proporre quella piu' conveniente al compratore. &#13;&#10;&#13;&#10;Programmatore: Simone D'Anna&#13;&#10;Data 11/11/2020"/>
+            <declare name="NomeCliente" type="String" array="False" size=""/>
+            <declare name="TotaleFoto" type="Integer" array="False" size=""/>
+            <declare name="Prezzo1, Quotafissa1, Prezzo2, TotalePrezzo1, TotalePrezzo2" type="Real" array="False" size=""/>
+            <assign variable="Prezzo1" expression="0.10"/>
+            <assign variable="Quotafissa1" expression="7.50"/>
+            <assign variable="Prezzo2" expression="0.20"/>
+            <output expression="&quot;Calcolo Prezzo foto Digistamp2000.&#13;&#10;Inserire il vostro nome&quot;" newline="True"/>
+            <input variable="NomeCliente"/>
+            <output expression="&quot;Inserire il quantitativo di foto da stampare&quot;" newline="True"/>
+            <input variable="TotaleFoto"/>
+            <assign variable="TotalePrezzo1" expression="(TotaleFoto*Prezzo1)+QuotaFissa1"/>
+            <assign variable="TotalePrezzo2" expression="TotaleFoto*Prezzo2"/>
+            <output expression="&quot;Gentile Cliente, L'offerta numero 1^ da come risultato &quot; &amp;TotalePrezzo1 &amp;&quot; &#8364;&quot;" newline="True"/>
+            <output expression="&quot;E l'offerta numero 2^ da come risultato &quot; &amp;TotalePrezzo2 &amp;&quot; &#8364;&quot;" newline="True"/>
+            <if expression="TotalePrezzo1&gt;TotalePrezzo2">
+                <then>
+                    <output expression="&quot;Le consigliamo di scegliere la 2^ offerta, poiche' risulta la piu conveniente.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Le consigliamo di scegliere la 1^ offerta, poiche' risulta la piu conveniente.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
