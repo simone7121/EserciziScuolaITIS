@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-12-01 10:44:31 "/>
+        <attribute name="created" value="c2ltb247REVTS1RPUC00NVJSR0VVOzIwMjAtMTEtMTk7IjA2OjI4OjA0ICI7MjgxOA=="/>
+        <attribute name="edited" value="c2ltb247REVTS1RPUC00NVJSR0VVOzIwMjAtMTItMDE7IjEwOjQ0OjMxICI7NjsyOTE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Algoritmo: Ricevuto in input tre numeri, sommare solo quelli positivi.&#13;&#10;&#13;&#10;Programmatore: Simone D'Anna&#13;&#10;Data: 21/11/2020"/>
+            <declare name="num1, num2, num3, somma" type="Integer" array="False" size=""/>
+            <output expression="&quot;Sommatore numeri positivi&quot;" newline="True"/>
+            <output expression="&quot;Inserire il primo numero&quot;" newline="True"/>
+            <input variable="num1"/>
+            <if expression="num1 &gt;= 0">
+                <then>
+                    <assign variable="somma" expression="somma+num1"/>
+                </then>
+                <else>
+                    <output expression="&quot;Il numero inserito e' Negativo&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Inserire il secondo numero&quot;" newline="True"/>
+            <input variable="num2"/>
+            <if expression="num2 &gt;= 0">
+                <then>
+                    <assign variable="somma" expression="somma+num2"/>
+                </then>
+                <else>
+                    <output expression="&quot;Il numero inserito e' Negativo&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Inserire il Terzo numero&quot;" newline="True"/>
+            <input variable="num3"/>
+            <if expression="num3 &gt;= 0">
+                <then>
+                    <assign variable="somma" expression="somma+num3"/>
+                </then>
+                <else>
+                    <output expression="&quot;Il numero inserito e' Negativo&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;La somma dei numeri positivi da come risultato: &quot; &amp;somma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

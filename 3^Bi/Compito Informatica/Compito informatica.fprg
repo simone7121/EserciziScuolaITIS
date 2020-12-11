@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-12-05 10:27:58 "/>
+        <attribute name="created" value="c2ltb247REVTS1RPUC00NVJSR0VVOzIwMjAtMTEtMTk7IjA2OjI4OjA0ICI7MjgxOA=="/>
+        <attribute name="edited" value="c2ltb247REVTS1RPUC00NVJSR0VVOzIwMjAtMTItMDU7IjEwOjI3OjU4ICI7MTY7Mjk3OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Algoritmo: Gioco di carte&#13;&#10;&#13;&#10;Programmatore: Simone D'Anna&#13;&#10;Data: 05/12/2020"/>
+            <declare name="num1, num2, risultato" type="Integer" array="False" size=""/>
+            <declare name="casecarta, letterapic" type="String" array="False" size=""/>
+            <output expression="&quot;Cuori Picche Fiori o Quadri&quot;" newline="True"/>
+            <output expression="&quot;Inserire solo  l' iniziale della carta scelta.&quot;" newline="True"/>
+            <input variable="casecarta"/>
+            <if expression="casecarta == &quot;f&quot; || casecarta == &quot;F&quot;">
+                <then>
+                    <output expression="&quot;Hai selezionato: Fiori&quot;" newline="True"/>
+                    <output expression="&quot;Inserire un numero&quot;" newline="True"/>
+                    <input variable="num1"/>
+                    <output expression="&quot;Inserire un altro numero&quot;" newline="True"/>
+                    <input variable="num2"/>
+                    <assign variable="risultato" expression="num1+num2"/>
+                    <if expression="risultato%2==0">
+                        <then>
+                            <output expression="&quot;Hai vinto !!&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Hai Perso !!&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else/>
+            </if>
+            <if expression="casecarta == &quot;c&quot; || casecarta == &quot;C&quot; || casecarta == &quot;q&quot; || casecarta == &quot;Q&quot;">
+                <then>
+                    <output expression="&quot;Hai selezionato: Cuori o Quadri&quot;" newline="True"/>
+                    <output expression="&quot;Inserire un numero&quot;" newline="True"/>
+                    <input variable="num1"/>
+                    <assign variable="risultato" expression="num1 * 3"/>
+                    <if expression="risultato &gt;= 50 || risultato &lt;=65">
+                        <then>
+                            <output expression="&quot;Hai vinto !!&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Hai Perso !!&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else/>
+            </if>
+            <if expression="casecarta == &quot;p&quot; || casecarta == &quot;P&quot;">
+                <then>
+                    <output expression="&quot;Hai selezionato: Picche&quot;" newline="True"/>
+                    <output expression="&quot;Inserire una lettera in minuscolo&quot;" newline="True"/>
+                    <input variable="letterapic"/>
+                    <if expression="letterapic == &quot;a&quot; || letterapic == &quot;e&quot; || letterapic == &quot;i&quot; || letterapic == &quot;o&quot; || letterapic == &quot;u&quot; || letterapic == &quot;A&quot; || letterapic == &quot;E&quot; || letterapic == &quot;I&quot; || letterapic == &quot;O&quot; || letterapic == &quot;U&quot;">
+                        <then>
+                            <output expression="&quot;Inserire un numero&quot;" newline="True"/>
+                            <input variable="num1"/>
+                            <output expression="&quot;Hai inserito il numero: &quot; &amp;num1" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;La carta che hai selezionato e' di colore NERA&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

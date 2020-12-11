@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-19 07:07:41 "/>
+        <attribute name="created" value="c2ltb247REVTS1RPUC00NVJSR0VVOzIwMjAtMTEtMTk7IjA2OjI4OjA0ICI7MjgxOA=="/>
+        <attribute name="edited" value="c2ltb247REVTS1RPUC00NVJSR0VVOzIwMjAtMTEtMTk7IjA3OjA3OjQxICI7MzsyOTI3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Algoritmo: Ricevuto in input 3 lati di un triangolodire se il triangolo e' fattibile, e dire di che triangolo si tratta.&#13;&#10;Programmatore: Simone D'Anna&#13;&#10;Data: 18/11/2020"/>
+            <declare name="Lato1, Lato2, Lato3" type="Real" array="False" size=""/>
+            <output expression="&quot;Triangolo Checker 2870&quot;" newline="True"/>
+            <output expression="&quot;Inserire il primo lato&quot;" newline="True"/>
+            <input variable="lato1"/>
+            <output expression="&quot;Inserire il secondo lato&quot;" newline="True"/>
+            <input variable="lato2"/>
+            <output expression="&quot;Inserire il terzo lato&quot;" newline="True"/>
+            <input variable="lato3"/>
+            <if expression="(lato1&lt;(lato2+lato3))&amp;&amp;(lato2&lt;(lato1+lato3))&amp;&amp;(lato3&lt;(lato1+lato2))">
+                <then>
+                    <if expression="(lato1==lato2) &amp;&amp; (lato2=lato3)">
+                        <then>
+                            <output expression="&quot;Tutti e tre i lati sono uguali, quindi e' un triangolo equilatero.&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="(lato1==lato2) || (lato1==lato3) || (lato2==lato3)">
+                                <then>
+                                    <output expression="&quot;Solo due lati sono uguali, quindi e' un triangolo isoscele.&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Tutti e tre i lati sono disuguali, quindi e' un triangolo scaleno.&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Con i dati immessi non e' possibile stabilire che triangolo si puo' costruire. Ricorda!! Ogni lato e' minore della somma degli altri due !&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

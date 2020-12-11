@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-12-01 11:00:18 "/>
+        <attribute name="created" value="c2ltb247REVTS1RPUC00NVJSR0VVOzIwMjAtMTEtMTk7IjA2OjI4OjA0ICI7MjgxOA=="/>
+        <attribute name="edited" value="c2ltb247REVTS1RPUC00NVJSR0VVOzIwMjAtMTItMDE7IjExOjAwOjE4ICI7MTA7Mjk1Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Algoritmo: Ricevuto in input tre numeri, moltiplicare solo quelli maggiori di 50.&#13;&#10;&#13;&#10;Programmatore: Simone D'Anna&#13;&#10;Data: 01/12/2020"/>
+            <declare name="num1, num2, num3, moltiplicazione" type="Integer" array="False" size=""/>
+            <output expression="&quot;Moltiplicazione numeri maggiori di 50&quot;" newline="True"/>
+            <output expression="&quot;Inserire il primo numero&quot;" newline="True"/>
+            <input variable="num1"/>
+            <if expression="num1 &gt; 50">
+                <then>
+                    <assign variable="moltiplicazione" expression="num1"/>
+                </then>
+                <else>
+                    <output expression="&quot;Il numero inserito e' Minore di 50&quot;" newline="True"/>
+                    <assign variable="moltiplicazione" expression="1"/>
+                    <comment text="Qui ci vuole un i++"/>
+                </else>
+            </if>
+            <output expression="&quot;Inserire il secondo numero&quot;" newline="True"/>
+            <input variable="num2"/>
+            <if expression="num2 &gt; 50">
+                <then>
+                    <assign variable="moltiplicazione" expression="moltiplicazione*num2"/>
+                </then>
+                <else>
+                    <output expression="&quot;Il numero inserito e' Minore di 50&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Inserire il Terzo numero&quot;" newline="True"/>
+            <input variable="num3"/>
+            <if expression="num3 &gt; 50">
+                <then>
+                    <assign variable="moltiplicazione" expression="moltiplicazione*num3"/>
+                </then>
+                <else>
+                    <output expression="&quot;Il numero inserito e' Minore di 50&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;La moltiplicazione dei numeri maggiori di 50 da come risultato: &quot; &amp;moltiplicazione" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

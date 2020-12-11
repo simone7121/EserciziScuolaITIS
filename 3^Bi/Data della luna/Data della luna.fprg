@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-23 11:25:13 "/>
+        <attribute name="created" value="c2ltb247REVTS1RPUC00NVJSR0VVOzIwMjAtMTEtMTk7IjA2OjI4OjA0ICI7MjgxOA=="/>
+        <attribute name="edited" value="c2ltb247REVTS1RPUC00NVJSR0VVOzIwMjAtMTEtMjM7IjExOjI1OjEzICI7NDsyOTE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Algoritmo: Ricevuto in input la data di nascita dell'utente&#13;&#10;           dire se e nato lo stesso annoi dell'atterraggio&#13;&#10;           dell'uomo sulla luna.&#13;&#10;&#13;&#10;Programmatore: Simone D'Anna&#13;&#10;Data: 21/11/2020"/>
+            <declare name="dataNascita, differenzaDatanLuna, dataUomoLuna" type="Real" array="False" size=""/>
+            <assign variable="dataUomoLuna" expression="1969"/>
+            <output expression="&quot;Un evento molto importante !&quot;" newline="True"/>
+            <output expression="&quot;Inserire la tua data di nascita: &quot;" newline="True"/>
+            <input variable="dataNascita"/>
+            <assign variable="differenzaDatanLuna" expression="dataNascita - dataUomoLuna"/>
+            <if expression="dataNascita &gt;= dataUomoLuna">
+                <then>
+                    <if expression="dataNascita == dataUomoLuna">
+                        <then>
+                            <output expression="&quot;Complimenti, sei nato lo stesso anno\nquando l'uomo e atterrato sulla luna.&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Mi dispiace, ma sei nato &quot; &amp;differenzaDatanLuna &amp;&quot; Anni Dopo l'atterraggio dell'uomo sulla luna.&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Mi dispiace, ma sei nato &quot; &amp;differenzaDatanLuna &amp;&quot; Anni Prima dell'atterraggio dell'uomo sulla luna.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

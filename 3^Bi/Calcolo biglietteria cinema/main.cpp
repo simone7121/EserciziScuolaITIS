@@ -1,12 +1,4 @@
-/*
 
-Algoritmo: Ricevuto in input l'eta' dello spettatore
-           dia la tariffa corrispondente alla loro eta'.
-
-Programmatore: Simone D'Anna
-Data: 13/11/2020
-
-*/
 
 #include <iostream>
 
@@ -14,11 +6,11 @@ using namespace std;
 
 int main() {
 
-    const int prezzoAdulti_19_80 = 8;    //Prezzo Adulti.
-    const int prezzoRagazzi_7_18 = 6;    //Prezzo Ragazzi fino a 18 anni.
-    const int prezzoSpeciale_6_80 = 0;   //Prezzo Bambini fino a 6 anni ed anziani con più di 80 anni.
+    const float prezzoAdulti_19_80 = 8;    //Prezzo Adulti.
+    const float prezzoRagazzi_7_18 = 6;    //Prezzo Ragazzi fino a 18 anni.
+    const float prezzoSpeciale_6_80 = 0;   //Prezzo Bambini fino a 6 anni ed anziani con piï¿½ di 80 anni.
 
-    int eta, totaleBiglietti, esito, somma, numeroPersone;
+    int eta, totaleBiglietti, esito, numeroPersone;
 
     cout << "~ Biglietteria Virtuale YourMoviePlex! ~" << endl << endl;
 
@@ -32,21 +24,19 @@ int main() {
         cin >> eta;
         cout << endl;
 
-        somma=totaleBiglietti;
+        if (eta>80 || eta<=6 && eta>=0){
 
-        if (eta>80 || eta<=6 & eta>=0){
-
-            totaleBiglietti=somma+prezzoSpeciale_6_80;
+            totaleBiglietti=totaleBiglietti+prezzoSpeciale_6_80;
             esito=0;
 
-            } else if (eta>6 & eta<=18){
+            } else if (eta>6 && eta<=18){
 
-               totaleBiglietti=somma+prezzoRagazzi_7_18;
+               totaleBiglietti=totaleBiglietti+prezzoRagazzi_7_18;
                esito=1;
 
-                } else if (eta>18 & eta<=80){
+                } else if (eta>18 && eta<=80){
 
-                   totaleBiglietti=somma+prezzoAdulti_19_80;
+                   totaleBiglietti=totaleBiglietti+prezzoAdulti_19_80;
                    esito=2;
 
                     } else if (eta<0) {
