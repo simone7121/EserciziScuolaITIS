@@ -1,0 +1,1 @@
+cout << endl << "Il prodotto complessivo e': " << x;

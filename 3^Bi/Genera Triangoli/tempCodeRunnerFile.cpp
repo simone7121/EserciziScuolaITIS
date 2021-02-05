@@ -1,0 +1,1 @@
+out << "~ Genera Triangoli ~" << endl ;

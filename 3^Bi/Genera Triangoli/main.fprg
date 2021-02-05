@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-01-20 10:34:26 "/>
+        <attribute name="created" value="c2ltb247REVTS1RPUC1ETVZJOTg4OzIwMjEtMDEtMjA7IjEwOjI5OjA3ICI7Mjc4OA=="/>
+        <attribute name="edited" value="c2ltb247REVTS1RPUC1ETVZJOTg4OzIwMjEtMDEtMjA7IjEwOjM0OjI2ICI7MTsyODkz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cateto, i, j" type="Integer" array="False" size=""/>
+            <declare name="simbolo" type="String" array="False" size=""/>
+            <output expression="&quot;Inserire lunghezza del cateto&quot;" newline="True"/>
+            <input variable="cateto"/>
+            <output expression="&quot;Inserire il simbolo con la quale\n deve essere stampato : &quot;" newline="True"/>
+            <input variable="simbolo"/>
+            <for variable="i" start="1" end="cateto" direction="inc" step="1">
+                <for variable="j" start="1" end="i" direction="inc" step="1">
+                    <output expression="simbolo" newline="False"/>
+                </for>
+                <output expression="&quot;&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
