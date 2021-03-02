@@ -11,5 +11,5 @@ Ti prego solo di ***non copiare i miei esercizi per poi consegnarli alla prof***
 - Per ora la Maggior parte di essi Sono scritti in **C++**
 	> Ovviamente i primissimi file saranno di una semplicità immane, ma piano piano che vado avanti, miglioro sempre le mie competenze 😉
 - Uso **Visual Studio Code** come IDE e **GNU GCC** come compilatore.	
-	> Ormai non uso piu' **CodeBlock** come IDE, che a parer mio è stato surclassato da VSC.
+	> Ormai non uso piu' **CodeBlock** come IDE, che a parer mio è stato surclassato pienamente da VSC.
 - Certi programmi più semplici hanno la procedura scritta su **Flowgorithm**. [Sito Web](http://www.flowgorithm.org/)
