@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-03-02 11:31:44 "/>
+        <attribute name="created" value="c2ltb247REVTS1RPUC1ETVZJOTg4OzIwMjEtMDMtMDI7IjEwOjIyOjI4ICI7Mjc4Ng=="/>
+        <attribute name="edited" value="c2ltb247REVTS1RPUC1ETVZJOTg4OzIwMjEtMDMtMDI7IjExOjMxOjQ0ICI7NTsyODk3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Algoritmo:  Leggere da tastiera un numero imprecisato di coppie di numeri interi. Terminare la lettura quando il primo numero della coppia risulta essere uguale a zero. Contare le coppie che danno il prodotto multiplo di un numero intero K.&#13;&#10;&#13;&#10;Programmatore: Simone D'Anna&#13;&#10;Data: 02/03/2021"/>
+            <declare name="x, y, k, prodotto, coincidenze" type="Integer" array="False" size=""/>
+            <assign variable="coincidenze" expression="0"/>
+            <comment text="system(&quot;cls&quot;)"/>
+            <output expression="&quot; ~ Calcolatore coppie di numeri ~ &quot;" newline="True"/>
+            <output expression="&quot;Inserisca un numero che serva da confronto per il prodotto delle due cifre della coppia di numeri.&quot;" newline="True"/>
+            <input variable="k"/>
+            <do expression="X != 0">
+                <comment text="system(&quot;cls&quot;)"/>
+                <output expression="&quot;Inserisca il Primo Numero Della Coppia. (INSERISCA 0 PER USCIRE )&quot;" newline="True"/>
+                <input variable="X"/>
+                <if expression="x != 0">
+                    <then>
+                        <output expression="&quot;Inserisca il Secondo Numero Della Coppia.&quot;" newline="True"/>
+                        <input variable="Y"/>
+                        <assign variable="prodotto" expression="x*y"/>
+                        <if expression="prodotto % k == 0">
+                            <then>
+                                <assign variable="coincidenze" expression="coincidenze+1"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+            </do>
+            <comment text="system(&quot;cls&quot;)"/>
+            <if expression="coincidenze == 1">
+                <then>
+                    <output expression="&quot;Si e' trovato rispettivamente 1 valore che corrisponde&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="coincidenze == 0">
+                        <then>
+                            <output expression="&quot;Si e' trovato rispettivamente nessun valore che corrisponde&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Si sono trovati rispettivamente &quot; &amp; coincidenze &amp;&quot; Valori che corrispondono&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;alla moltiplicazione delle due cifre contenute nella coppia di numeri, la quale il risultato e' un multiplo di &quot; &amp; k" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

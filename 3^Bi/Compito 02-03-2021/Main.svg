@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 2.25.1 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="3525" height="6900">
+	<rect x="0" y="0" width="3525" height="6900" fill="#303030"/>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="1800,200 1800,625"/>
+		<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="1800,6625 1800,6686"/>
+		<polygon fill="#FFFFFF" stroke="none" points="1800,6700 1813,6675 1786,6675"/>
+		<g>
+			<path fill="#9040D0" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 1700,100 A 50,50 0 0,0 1700,200 L 1900,200 A 50,50 0 0,0 1900,100 Z"/>
+			<text x="1800" y="115" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="1800" dy="50" unicode-bidi="embed">Inizio</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#9040D0" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 1700,6700 A 50,50 0 0,0 1700,6800 L 1900,6800 A 50,50 0 0,0 1900,6700 Z"/>
+			<text x="1800" y="6715" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="1800" dy="50" unicode-bidi="embed">Fine</tspan>
+			</text>
+		</g>
+		<g>
+			<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="1800,625 1800,1036"/>
+			<polygon fill="#FFFFFF" stroke="none" points="1800,1050 1813,1025 1786,1025"/>
+			<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="1800,1225 1800,1286"/>
+			<polygon fill="#FFFFFF" stroke="none" points="1800,1300 1813,1275 1786,1275"/>
+			<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="1800,1400 1800,1525"/>
+			<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="1800,1525 1800,1636"/>
+			<polygon fill="#FFFFFF" stroke="none" points="1800,1650 1813,1625 1786,1625"/>
+			<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="1800,1800 1800,1861"/>
+			<polygon fill="#FFFFFF" stroke="none" points="1800,1875 1813,1850 1786,1850"/>
+			<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="1800,2125 1800,2186"/>
+			<polygon fill="#FFFFFF" stroke="none" points="1800,2200 1813,2175 1786,2175"/>
+			<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="1800,2300 1800,2361"/>
+			<polygon fill="#FFFFFF" stroke="none" points="1800,2375 1813,2350 1786,2350"/>
+			<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="1800,4825 1800,5025"/>
+			<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="1800,5025 1800,5136"/>
+			<polygon fill="#FFFFFF" stroke="none" points="1800,5150 1813,5125 1786,5125"/>
+			<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="1800,6250 1800,6311"/>
+			<polygon fill="#FFFFFF" stroke="none" points="1800,6325 1813,6300 1786,6300"/>
+			<g>
+				<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="6,12" points="1800,625 1925,625"/>
+				<g>
+					<path fill="#303030" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="6,6" d="M 1925,275 L 1925,975 L 2725,975 L 2725,275 Z"/>
+					<text x="2325" y="290" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="2325" dy="50" unicode-bidi="embed">Algoritmo:  Leggere da tastiera un</tspan>
+						<tspan x="2325" dy="50" unicode-bidi="embed"> numero imprecisato di coppie di</tspan>
+						<tspan x="2325" dy="50" unicode-bidi="embed"> numeri interi. Terminare la lettura</tspan>
+						<tspan x="2325" dy="50" unicode-bidi="embed"> quando il primo numero della coppia</tspan>
+						<tspan x="2325" dy="50" unicode-bidi="embed"> risulta essere uguale a zero. Contare</tspan>
+						<tspan x="2325" dy="50" unicode-bidi="embed"> le coppie che danno il prodotto</tspan>
+						<tspan x="2325" dy="50" unicode-bidi="embed"> multiplo di un numero intero</tspan>
+						<tspan x="2325" dy="50" unicode-bidi="embed"> K.&#13;</tspan>
+						<tspan x="2325" dy="50" unicode-bidi="embed"></tspan>
+						<tspan x="2325" dy="50" unicode-bidi="embed">&#13;</tspan>
+						<tspan x="2325" dy="50" unicode-bidi="embed">Programmatore: Simone</tspan>
+						<tspan x="2325" dy="50" unicode-bidi="embed"> D'Anna&#13;</tspan>
+						<tspan x="2325" dy="50" unicode-bidi="embed">Data: 02/03/2021</tspan>
+					</text>
+				</g>
+			</g>
+			<g>
+				<path fill="#D0B000" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 1525,1050 L 1525,1225 L 2075,1225 L 2075,1050 Z"/>
+				<polyline fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="none" points="1525,1075 2075,1075"/>
+				<polyline fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="none" points="1550,1050 1550,1225"/>
+				<text x="1812" y="1090" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="1812" dy="50" unicode-bidi="embed">Dichiara x, y, k, prodotto,</tspan>
+					<tspan x="1812" dy="50" unicode-bidi="embed"> coincidenze: Intero</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D0B000" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 1600,1300 L 1600,1400 L 2000,1400 L 2000,1300 Z"/>
+				<text x="1800" y="1315" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="1800" dy="50" unicode-bidi="embed">coincidenze = 0</tspan>
+				</text>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="6,12" points="1800,1525 1925,1525"/>
+				<g>
+					<path fill="#303030" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="6,6" d="M 1925,1475 L 1925,1575 L 2225,1575 L 2225,1475 Z"/>
+					<text x="2075" y="1490" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="2075" dy="50" unicode-bidi="embed">system(&quot;cls&quot;)</tspan>
+					</text>
+				</g>
+			</g>
+			<g>
+				<path fill="#00B040" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 1500,1650 L 1425,1800 L 2100,1800 L 2175,1650 Z"/>
+				<text x="1800" y="1665" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="1800" dy="50" unicode-bidi="embed">Scrivi &quot; ~ Calcolatore coppie</tspan>
+					<tspan x="1800" dy="50" unicode-bidi="embed"> di numeri ~ &quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#00B040" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 1500,1875 L 1375,2125 L 2100,2125 L 2225,1875 Z"/>
+				<text x="1800" y="1890" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="1800" dy="50" unicode-bidi="embed">Scrivi &quot;Inserisca un numero</tspan>
+					<tspan x="1800" dy="50" unicode-bidi="embed"> che serva da confronto per</tspan>
+					<tspan x="1800" dy="50" unicode-bidi="embed"> il prodotto delle due cifre</tspan>
+					<tspan x="1800" dy="50" unicode-bidi="embed"> della coppia di numeri.&quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#0050D0" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 1700,2200 L 1650,2300 L 1900,2300 L 1950,2200 Z"/>
+				<text x="1800" y="2215" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="1800" dy="50" unicode-bidi="embed">Leggi k</tspan>
+				</text>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="1825,2400 2300,2400 2300,2550"/>
+				<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="2300,4650 2300,4775 1963,4775"/>
+				<polygon fill="#FFFFFF" stroke="none" points="1950,4775 1974,4788 1974,4761"/>
+				<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="1800,4725 1800,2438"/>
+				<polygon fill="#FFFFFF" stroke="none" points="1800,2425 1786,2449 1813,2449"/>
+				<text x="1725" y="4640" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="1725" dy="50" unicode-bidi="embed">Vero</tspan>
+				</text>
+				<text x="1712" y="4840" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="1712" dy="50" unicode-bidi="embed">Falso</tspan>
+				</text>
+				<g>
+					<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="2300,2550 2300,2661"/>
+					<polygon fill="#FFFFFF" stroke="none" points="2300,2675 2313,2650 2286,2650"/>
+					<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="2300,2925 2300,2986"/>
+					<polygon fill="#FFFFFF" stroke="none" points="2300,3000 2313,2975 2286,2975"/>
+					<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="2300,3100 2300,3161"/>
+					<polygon fill="#FFFFFF" stroke="none" points="2300,3175 2313,3150 2286,3150"/>
+					<g>
+						<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="6,12" points="2300,2550 2425,2550"/>
+						<g>
+							<path fill="#303030" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="6,6" d="M 2425,2500 L 2425,2600 L 2725,2600 L 2725,2500 Z"/>
+							<text x="2575" y="2515" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="2575" dy="50" unicode-bidi="embed">system(&quot;cls&quot;)</tspan>
+							</text>
+						</g>
+					</g>
+					<g>
+						<path fill="#00B040" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 2025,2675 L 1900,2925 L 2575,2925 L 2700,2675 Z"/>
+						<text x="2300" y="2690" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="2300" dy="50" unicode-bidi="embed">Scrivi &quot;Inserisca il Primo</tspan>
+							<tspan x="2300" dy="50" unicode-bidi="embed"> Numero Della Coppia.</tspan>
+							<tspan x="2300" dy="50" unicode-bidi="embed"> (INSERISCA 0 PER</tspan>
+							<tspan x="2300" dy="50" unicode-bidi="embed"> USCIRE )&quot;</tspan>
+						</text>
+					</g>
+					<g>
+						<path fill="#0050D0" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 2200,3000 L 2150,3100 L 2400,3100 L 2450,3000 Z"/>
+						<text x="2300" y="3015" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="2300" dy="50" unicode-bidi="embed">Leggi X</tspan>
+						</text>
+					</g>
+					<g>
+						<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="2425,3250 2750,3250 2750,3361"/>
+						<polygon fill="#FFFFFF" stroke="none" points="2750,3375 2763,3350 2736,3350"/>
+						<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="2750,4525 2750,4625 2338,4625"/>
+						<polygon fill="#FFFFFF" stroke="none" points="2325,4625 2349,4638 2349,4611"/>
+						<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="2175,3250 2000,3250 2000,4625 2261,4625"/>
+						<polygon fill="#FFFFFF" stroke="none" points="2275,4625 2250,4611 2250,4638"/>
+						<g>
+							<path fill="#D03030" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 2300,3175 L 2150,3250 L 2300,3325 L 2450,3250 Z"/>
+							<text x="2300" y="3215" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="2300" dy="50" unicode-bidi="embed">x != 0</tspan>
+							</text>
+						</g>
+						<g>
+							<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="2750,3525 2750,3586"/>
+							<polygon fill="#FFFFFF" stroke="none" points="2750,3600 2763,3575 2736,3575"/>
+							<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="2750,3700 2750,3761"/>
+							<polygon fill="#FFFFFF" stroke="none" points="2750,3775 2763,3750 2736,3750"/>
+							<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="2750,3875 2750,3936"/>
+							<polygon fill="#FFFFFF" stroke="none" points="2750,3950 2763,3925 2736,3925"/>
+							<g>
+								<path fill="#00B040" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 2450,3375 L 2375,3525 L 3050,3525 L 3125,3375 Z"/>
+								<text x="2750" y="3390" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="2750" dy="50" unicode-bidi="embed">Scrivi &quot;Inserisca il Secondo</tspan>
+									<tspan x="2750" dy="50" unicode-bidi="embed"> Numero Della Coppia.&quot;</tspan>
+								</text>
+							</g>
+							<g>
+								<path fill="#0050D0" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 2650,3600 L 2600,3700 L 2850,3700 L 2900,3600 Z"/>
+								<text x="2750" y="3615" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="2750" dy="50" unicode-bidi="embed">Leggi Y</tspan>
+								</text>
+							</g>
+							<g>
+								<path fill="#D0B000" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 2575,3775 L 2575,3875 L 2925,3875 L 2925,3775 Z"/>
+								<text x="2750" y="3790" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="2750" dy="50" unicode-bidi="embed">prodotto = x*y</tspan>
+								</text>
+							</g>
+							<g>
+								<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="2975,4075 3125,4075 3125,4236"/>
+								<polygon fill="#FFFFFF" stroke="none" points="3125,4250 3138,4225 3111,4225"/>
+								<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="3125,4400 3125,4500 2788,4500"/>
+								<polygon fill="#FFFFFF" stroke="none" points="2775,4500 2799,4513 2799,4486"/>
+								<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="2525,4075 2350,4075 2350,4500 2711,4500"/>
+								<polygon fill="#FFFFFF" stroke="none" points="2725,4500 2700,4486 2700,4513"/>
+								<g>
+									<path fill="#D03030" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 2750,3950 L 2500,4075 L 2750,4200 L 3000,4075 Z"/>
+									<text x="2750" y="4040" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="2750" dy="50" unicode-bidi="embed">prodotto % k == 0</tspan>
+									</text>
+								</g>
+								<g>
+									<path fill="#D0B000" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 2825,4250 L 2825,4400 L 3425,4400 L 3425,4250 Z"/>
+									<text x="3125" y="4265" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="3125" dy="50" unicode-bidi="embed">coincidenze = coincidenze</tspan>
+										<tspan x="3125" dy="50" unicode-bidi="embed">+1</tspan>
+									</text>
+								</g>
+								<g>
+								</g>
+								<ellipse cx="2750" cy="4500" rx="25" ry="25" fill="#D03030" stroke="#000000" stroke-width="3"/>
+								<text x="3075" y="3990" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="3075" dy="50" unicode-bidi="embed">Vero</tspan>
+								</text>
+								<text x="2412" y="3990" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="2412" dy="50" unicode-bidi="embed">Falso</tspan>
+								</text>
+							</g>
+						</g>
+						<g>
+						</g>
+						<ellipse cx="2300" cy="4625" rx="25" ry="25" fill="#D03030" stroke="#000000" stroke-width="3"/>
+						<text x="2525" y="3165" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="2525" dy="50" unicode-bidi="embed">Vero</tspan>
+						</text>
+						<text x="2062" y="3165" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="2062" dy="50" unicode-bidi="embed">Falso</tspan>
+						</text>
+					</g>
+				</g>
+				<g>
+					<path fill="#E06000" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 1700,4725 L 1650,4775 L 1700,4825 L 1900,4825 L 1950,4775 L 1900,4725 Z"/>
+					<text x="1800" y="4740" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="1800" dy="50" unicode-bidi="embed">X != 0</tspan>
+					</text>
+				</g>
+				<ellipse cx="1800" cy="2400" rx="25" ry="25" fill="#E06000" stroke="#000000" stroke-width="3"/>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="6,12" points="1800,5025 1925,5025"/>
+				<g>
+					<path fill="#303030" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="6,6" d="M 1925,4975 L 1925,5075 L 2225,5075 L 2225,4975 Z"/>
+					<text x="2075" y="4990" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="2075" dy="50" unicode-bidi="embed">system(&quot;cls&quot;)</tspan>
+					</text>
+				</g>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="2025,5275 2225,5275 2225,5436"/>
+				<polygon fill="#FFFFFF" stroke="none" points="2225,5450 2238,5425 2211,5425"/>
+				<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="2225,5650 2225,6225 1838,6225"/>
+				<polygon fill="#FFFFFF" stroke="none" points="1825,6225 1849,6238 1849,6211"/>
+				<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="1575,5275 950,5275 950,5436"/>
+				<polygon fill="#FFFFFF" stroke="none" points="950,5450 963,5425 936,5425"/>
+				<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="950,6125 950,6225 1761,6225"/>
+				<polygon fill="#FFFFFF" stroke="none" points="1775,6225 1750,6211 1750,6238"/>
+				<g>
+					<path fill="#D03030" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 1800,5150 L 1550,5275 L 1800,5400 L 2050,5275 Z"/>
+					<text x="1800" y="5240" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="1800" dy="50" unicode-bidi="embed">coincidenze == 1</tspan>
+					</text>
+				</g>
+				<g>
+					<path fill="#00B040" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 1950,5450 L 1850,5650 L 2500,5650 L 2600,5450 Z"/>
+					<text x="2225" y="5465" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="2225" dy="50" unicode-bidi="embed">Scrivi &quot;Si e' trovato</tspan>
+						<tspan x="2225" dy="50" unicode-bidi="embed"> rispettivamente 1 valore</tspan>
+						<tspan x="2225" dy="50" unicode-bidi="embed"> che corrisponde&quot;</tspan>
+					</text>
+				</g>
+				<g>
+					<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="1175,5575 1375,5575 1375,5736"/>
+					<polygon fill="#FFFFFF" stroke="none" points="1375,5750 1388,5725 1361,5725"/>
+					<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="1375,5950 1375,6100 988,6100"/>
+					<polygon fill="#FFFFFF" stroke="none" points="975,6100 999,6113 999,6086"/>
+					<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="725,5575 500,5575 500,5736"/>
+					<polygon fill="#FFFFFF" stroke="none" points="500,5750 513,5725 486,5725"/>
+					<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="none" points="500,6000 500,6100 911,6100"/>
+					<polygon fill="#FFFFFF" stroke="none" points="925,6100 900,6086 900,6113"/>
+					<g>
+						<path fill="#D03030" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 950,5450 L 700,5575 L 950,5700 L 1200,5575 Z"/>
+						<text x="950" y="5540" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="950" dy="50" unicode-bidi="embed">coincidenze == 0</tspan>
+						</text>
+					</g>
+					<g>
+						<path fill="#00B040" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 1100,5750 L 1000,5950 L 1650,5950 L 1750,5750 Z"/>
+						<text x="1375" y="5765" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1375" dy="50" unicode-bidi="embed">Scrivi &quot;Si e' trovato</tspan>
+							<tspan x="1375" dy="50" unicode-bidi="embed"> rispettivamente nessun</tspan>
+							<tspan x="1375" dy="50" unicode-bidi="embed"> valore che corrisponde&quot;</tspan>
+						</text>
+					</g>
+					<g>
+						<path fill="#00B040" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 225,5750 L 100,6000 L 775,6000 L 900,5750 Z"/>
+						<text x="500" y="5765" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="500" dy="50" unicode-bidi="embed">Scrivi &quot;Si sono trovati</tspan>
+							<tspan x="500" dy="50" unicode-bidi="embed"> rispettivamente &quot; &amp;</tspan>
+							<tspan x="500" dy="50" unicode-bidi="embed"> coincidenze &amp;&quot; Valori che</tspan>
+							<tspan x="500" dy="50" unicode-bidi="embed"> corrispondono&quot;</tspan>
+						</text>
+					</g>
+					<ellipse cx="950" cy="6100" rx="25" ry="25" fill="#D03030" stroke="#000000" stroke-width="3"/>
+					<text x="1275" y="5490" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="1275" dy="50" unicode-bidi="embed">Vero</tspan>
+					</text>
+					<text x="612" y="5490" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="612" dy="50" unicode-bidi="embed">Falso</tspan>
+					</text>
+				</g>
+				<ellipse cx="1800" cy="6225" rx="25" ry="25" fill="#D03030" stroke="#000000" stroke-width="3"/>
+				<text x="2125" y="5190" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="2125" dy="50" unicode-bidi="embed">Vero</tspan>
+				</text>
+				<text x="1462" y="5190" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="1462" dy="50" unicode-bidi="embed">Falso</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#00B040" stroke="#000000" stroke-width="3" stroke-dasharray="none" d="M 1525,6325 L 1375,6625 L 2075,6625 L 2225,6325 Z"/>
+				<text x="1800" y="6340" fill="#FFFFFF" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="1800" dy="50" unicode-bidi="embed">Scrivi &quot;alla moltiplicazione</tspan>
+					<tspan x="1800" dy="50" unicode-bidi="embed"> delle due cifre contenute</tspan>
+					<tspan x="1800" dy="50" unicode-bidi="embed"> nella coppia di numeri, la</tspan>
+					<tspan x="1800" dy="50" unicode-bidi="embed"> quale il risultato e' un</tspan>
+					<tspan x="1800" dy="50" unicode-bidi="embed"> multiplo di &quot; &amp; k</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

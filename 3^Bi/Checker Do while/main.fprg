@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-02-09 11:59:15 "/>
+        <attribute name="created" value="c2ltb247REVTS1RPUC1ETVZJOTg4OzIwMjEtMDItMDk7IjExOjI0OjI0ICI7Mjc5MQ=="/>
+        <attribute name="edited" value="c2ltb247REVTS1RPUC1ETVZJOTg4OzIwMjEtMDItMDk7IjExOjU5OjE1ICI7NzsyOTEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Algoritmo: Ricevuto in input un numero qualsiasi,vedere se esso e' compreso tra 1 e 10&#13;&#10;Programmatore: Simone D'Anna&#13;&#10;Data: 09/02/2021"/>
+            <declare name="numeroinserito, tentativi, i" type="Integer" array="False" size=""/>
+            <assign variable="tentativi" expression="0"/>
+            <output expression="&quot; ~ Checker Numero ~ &quot;" newline="True"/>
+            <do expression="(numeroinserito &lt; 1 || numeroinserito &gt; 10)">
+                <output expression="&quot;Inserisci un numero&quot;" newline="True"/>
+                <input variable="numeroinserito"/>
+                <assign variable="tentativi" expression="tentativi+1"/>
+            </do>
+            <output expression="&quot;Bravo, hai inserito un numero compreso tra 1 e 10.&quot;" newline="True"/>
+            <if expression="(tentativi == 1 )">
+                <then>
+                    <output expression="&quot;E' ci sono voluti 0 Tentativi, Bravo ! &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Ma ci sono voluti &quot; &amp;tentativi &amp; &quot; Tentativi&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

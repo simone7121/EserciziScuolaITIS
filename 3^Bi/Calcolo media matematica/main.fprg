@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-02-23 11:54:00 "/>
+        <attribute name="created" value="c2ltb247REVTS1RPUC1ETVZJOTg4OzIwMjEtMDItMjM7IjEwOjI5OjM1ICI7Mjc5Mw=="/>
+        <attribute name="edited" value="c2ltb247REVTS1RPUC1ETVZJOTg4OzIwMjEtMDItMjM7IjExOjU0OjAwICI7NDsyODk1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Traccia: Dato un elenco di (N) studenti, per ogni studente sono indicati il nome e due voti relativi a due prove di Matematica, alla fine del programma si indicano i numeri di coloro che dovranno frequentare un corso di recupero, e degli errori di inserimento dei voti.&#13;&#10;&#13;&#10;&#13;&#10;Programmatore: Simone D'Anna&#13;&#10;Data: 23/02/2021"/>
+            <declare name="studenti, votoprimaver, votosecondaver, vototot, conterr, contneg, i" type="Integer" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <assign variable="conterr" expression="0"/>
+            <assign variable="contneg" expression="0"/>
+            <output expression="&quot;Calcolatore media Matematica&quot;" newline="True"/>
+            <output expression="&quot;Inserisci il numero degli studenti: &quot;" newline="True"/>
+            <input variable="studenti"/>
+            <for variable="i" start="1" end="studenti" direction="inc" step="1">
+                <output expression="&quot;Inserisci il nome dell'alunno&quot;" newline="True"/>
+                <input variable="nome"/>
+                <output expression="&quot;Inserire il Primo voto:&quot;" newline="True"/>
+                <input variable="votoprimaver"/>
+                <output expression="&quot;Inserire il Secondo voto:&quot;" newline="True"/>
+                <input variable="votosecondaver"/>
+                <assign variable="vototot" expression="(votoprimaver+votosecondaver)/2"/>
+                <if expression="vototot &gt;=0 &amp;&amp; vototot &lt;=5">
+                    <then>
+                        <output expression="&quot;L'alunno &quot; &amp;nome &amp;&quot; deve seguire i corsi di recupero&quot;" newline="True"/>
+                        <assign variable="contneg" expression="contneg+1"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;C'e' un errore nei voti, ricontrolla&quot;" newline="True"/>
+                        <assign variable="conterr" expression="conterr+1"/>
+                    </else>
+                </if>
+                <output expression="&quot;La sua media e': &quot; &amp;vototot" newline="True"/>
+            </for>
+            <output expression="&quot;Il totale degli errori di inserimento sono: &quot; &amp;conterr" newline="True"/>
+            <output expression="&quot;Il totale degli studenti Indebitati sono: &quot; &amp;contneg" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

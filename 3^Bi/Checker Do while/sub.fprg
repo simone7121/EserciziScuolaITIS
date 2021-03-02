@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-02-09 11:41:38 "/>
+        <attribute name="created" value="c2ltb247REVTS1RPUC1ETVZJOTg4OzIwMjEtMDItMDk7IjExOjI0OjI0ICI7Mjc5MQ=="/>
+        <attribute name="edited" value="c2ltb247REVTS1RPUC1ETVZJOTg4OzIwMjEtMDItMDk7IjExOjQxOjM4ICI7MjsyOTA0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Algoritmo: Ricevuto in input il numero di persone in totale calcolare la media dell'altezza di n persone(se il nimerto inserito e' compreso tra 50 e 200).&#13;&#10;Programmatore: Simone D'Anna&#13;&#10;Data: 09/02/2021"/>
+            <declare name="persone, altezza, media, sommaltezza, i" type="Integer" array="False" size=""/>
+            <assign variable="sommaltezza" expression="0"/>
+            <output expression="&quot; ~ Calcolatore media altezza ~ &quot;" newline="True"/>
+            <output expression="&quot;Inserisci il numero totale delle persone&quot;" newline="True"/>
+            <input variable="persone"/>
+            <for variable="i" start="1" end="persone" direction="inc" step="1">
+                <do expression="(altezza &lt; 50 || altezza &gt; 200)">
+                    <output expression="&quot;Inserisci l'altezza della &quot; &amp; i &amp; &quot; Persona ( IN CM )&quot;" newline="True"/>
+                    <input variable="altezza"/>
+                </do>
+                <assign variable="sommaltezza" expression="sommaltezza + altezza"/>
+            </for>
+            <assign variable="media" expression="sommaltezza / persone"/>
+            <output expression="&quot;L'altezza media e' &quot; &amp;media &amp;&quot; Cm&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
