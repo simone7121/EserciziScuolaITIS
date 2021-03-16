@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-03-06 10:21:37 "/>
+        <attribute name="created" value="c2ltb247REVTS1RPUC1ETVZJOTg4OzIwMjEtMDMtMDY7IjA5OjU2OjE5ICI7MjgwNQ=="/>
+        <attribute name="edited" value="c2ltb247REVTS1RPUC1ETVZJOTg4OzIwMjEtMDMtMDY7IjEwOjIxOjM3ICI7MjsyODk4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Traccia : Leggere una sequenza di numeri. Terminare la lettura quando si incontra un valore pari a 0 e stampare quanti numeri sono stati letti e quanti fra essi sono risultati pari.&#13;&#10;"/>
+            <declare name="numero, countpari, countnum, i" type="Integer" array="False" size=""/>
+            <assign variable="countpari" expression="0"/>
+            <assign variable="countnum" expression="0"/>
+            <assign variable="i" expression="0"/>
+            <do expression="numero != 0">
+                <assign variable="i" expression="i+1"/>
+                <output expression="&quot;Inserire il &quot; &amp; i &amp;&quot; Numero&quot;" newline="True"/>
+                <input variable="numero"/>
+                <if expression="numero != 0">
+                    <then>
+                        <assign variable="countnum" expression="countnum + 1"/>
+                        <if expression="numero % 2 == 0">
+                            <then>
+                                <assign variable="countpari" expression="countpari+1"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+            </do>
+            <output expression="&quot;Il totale dei numeri inseriti e': &quot; &amp;countnum" newline="True"/>
+            <output expression="&quot;Il totale dei numeri pari inseriti e': &quot; &amp;countpari" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
