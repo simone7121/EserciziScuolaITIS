@@ -1,0 +1,3 @@
+The program allows to enter an Alphabet and it,
+checks and displays. whether the given alphabet
+is vowel or consonant without the break statements.
