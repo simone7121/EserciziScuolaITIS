@@ -14,7 +14,7 @@ Per favore, **non copiare i miei esercizi per poi presentarli alla prof**. 🙄
 ### 📝 Note Informative
 
 - **Lingua di Programmazione:**  
-  Per ora, la maggior parte degli esercizi è scritta in **C++**.  
+  La maggior parte degli esercizi è scritta in **C++** e **JAVA**.  
   > I primi file potrebbero essere piuttosto semplici, ma man mano che progredisco, miglioro sempre le mie competenze. 😉
   
 - **Strumenti Utilizzati:**  
