@@ -2,7 +2,7 @@
 
 # 📚 Esercizi Scuola ITIS
 
-Benvenuti nella mia repository! Qui potete trovare tutti gli esercizi che ho completato durante il mio percorso scolastico. Man mano che creo nuovi file, li caricherò gradualmente in questa repo.
+Benvenuti nella mia repository! Qui potete trovare tutti gli esercizi che ho completato durante il mio percorso scolastico all ITIS.
 
 Se sei un compagno di classe, benvenuto! 👋  
 Per favore, **non copiare i miei esercizi per poi presentarli alla prof**. 🙄
@@ -18,7 +18,7 @@ Per favore, **non copiare i miei esercizi per poi presentarli alla prof**. 🙄
   > I primi file potrebbero essere piuttosto semplici, ma man mano che progredisco, miglioro sempre le mie competenze. 😉
   
 - **Strumenti Utilizzati:**  
-  Utilizzo **Visual Studio Code** come IDE e **GNU GCC** come compilatore.  
+  Ho usato **Visual Studio Code** come IDE e **GNU GCC** come compilatore.  
   > Ormai non uso più **Code::Blocks** come IDE, che a mio avviso è stato completamente surclassato da VSC.
 
 - **Flowgorithm:**  
