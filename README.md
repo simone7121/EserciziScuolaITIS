@@ -1,15 +1,32 @@
-# Esercizi Scuola ITIS
-In questa Repository potete trovare tutti i miei esercizi che ho fatto a scuola.
-Piano piano che creo Nuovi file, farò l'upload di essi su questa repo.
+---
 
-Se sei un mio compagno di classe Benvenuto 👋. 
-Ti prego solo di ***non copiare i miei esercizi per poi consegnarli alla prof*** 🙄. 
+# 📚 Esercizi Scuola ITIS
 
-> Sia chiaro che farò sempre l'upload dei file, dopo che la prof li abbia corretti 🤷‍♂️.
+Benvenuti nella mia repository! Qui potete trovare tutti gli esercizi che ho completato durante il mio percorso scolastico. Man mano che creo nuovi file, li caricherò gradualmente in questa repo.
 
-### Note Informative
-- Per ora la Maggior parte di essi Sono scritti in **C++**
-	> Ovviamente i primissimi file saranno di una semplicità immane, ma piano piano che vado avanti, miglioro sempre le mie competenze 😉
-- Uso **Visual Studio Code** come IDE e **GNU GCC** come compilatore.	
-	> Ormai non uso piu' **CodeBlock** come IDE, che a parer mio è stato surclassato pienamente da VSC.
-- Certi programmi più semplici hanno la procedura scritta su **Flowgorithm**. [Sito Web](http://www.flowgorithm.org/)
+Se sei un compagno di classe, benvenuto! 👋  
+Per favore, **non copiare i miei esercizi per poi presentarli alla prof**. 🙄
+
+> Per essere chiari, caricherò i file **solo dopo che la prof li ha corretti**. 🤷‍♂️
+
+---
+
+### 📝 Note Informative
+
+- **Lingua di Programmazione:**  
+  Per ora, la maggior parte degli esercizi è scritta in **C++**.  
+  > I primi file potrebbero essere piuttosto semplici, ma man mano che progredisco, miglioro sempre le mie competenze. 😉
+  
+- **Strumenti Utilizzati:**  
+  Utilizzo **Visual Studio Code** come IDE e **GNU GCC** come compilatore.  
+  > Ormai non uso più **Code::Blocks** come IDE, che a mio avviso è stato completamente surclassato da VSC.
+
+- **Flowgorithm:**  
+  Alcuni programmi più semplici hanno la procedura scritta su **Flowgorithm**. Potete trovarlo qui: [Sito Web di Flowgorithm](http://www.flowgorithm.org/)
+
+---
+
+### 🔗 Contattami
+Se hai domande o vuoi collaborare sugli esercizi, sentiti libero di contattarmi! Aiutiamoci a vicenda a imparare e crescere! 🌟
+
+---
